@@ -1,0 +1,1606 @@
+{
+ "format": 1,
+ "version": 1,
+ "license": "ODbL-1.0",
+ "attribution": "Contains information from the Exodus Privacy tracker database (https://reports.exodus-privacy.eu.org/), which is made available under the Open Database License (ODbL) 1.0: https://opendatacommons.org/licenses/odbl/1-0/. Individual contents are under the Database Contents License 1.0: https://opendatacommons.org/licenses/dbcl/1-0/. This list is a derived database (selected, merged and extended by the Phone Guard project) and is made available under the same ODbL 1.0.",
+ "sources": [
+  {
+   "name": "Exodus Privacy tracker list",
+   "url": "https://reports.exodus-privacy.eu.org/api/trackers",
+   "fetched": "2026-10-26",
+   "license": "ODbL-1.0"
+  },
+  {
+   "name": "Phone Guard curation",
+   "url": "config/adsdk/curation.json",
+   "fetched": "",
+   "license": "ODbL-1.0"
+  }
+ ],
+ "ignore": [
+  "com.google.android.gms.ads.identifier",
+  "com.huawei.hms.ads.identifier",
+  "com.huawei.hms.ads.installreferrer"
+ ],
+ "networks": [
+  {
+   "id": "aarki",
+   "name": "Aarki",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.aarki"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:326"
+   ]
+  },
+  {
+   "id": "adadapted",
+   "name": "AdAdapted",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.adadapted.android.sdk"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:272"
+   ]
+  },
+  {
+   "id": "adbuddiz",
+   "name": "AdBuddiz",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.purplebrain.adbuddiz.sdk"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:216"
+   ]
+  },
+  {
+   "id": "adcash",
+   "name": "Adcash",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.adcash.mobileads"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:274"
+   ]
+  },
+  {
+   "id": "adcenix",
+   "name": "Adcenix",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.adcenix"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:359"
+   ]
+  },
+  {
+   "id": "adcolony",
+   "name": "AdColony",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.adcolony",
+    "com.jirbo.adcolony"
+   ],
+   "adapters": [
+    "com.applovin.mediation.adapters.AdColonyMediationAdapter",
+    "com.applovin.mediation.adapters.adcolony",
+    "com.google.ads.mediation.adcolony",
+    "com.ironsource.adapters.adcolony",
+    "com.jirbo.adcolony.AdColonyAdapter"
+   ],
+   "sources": [
+    "exodus:90"
+   ]
+  },
+  {
+   "id": "adfalcon",
+   "name": "AdFalcon",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.noqoush.adfalcon.android.sdk"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:295"
+   ]
+  },
+  {
+   "id": "adform",
+   "name": "Adform",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.adform.sdk"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:157"
+   ]
+  },
+  {
+   "id": "adfurikun",
+   "name": "Adfurikun",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.glossomads.sdk",
+    "jp.tjkapp.adfurikunsdk"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:158"
+   ]
+  },
+  {
+   "id": "adgatemedia",
+   "name": "AdGate Media",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.adgatemedia"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:425"
+   ]
+  },
+  {
+   "id": "adgem",
+   "name": "AdGem",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.adgem.android"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:437"
+   ]
+  },
+  {
+   "id": "adgeneration",
+   "name": "Ad Generation",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.socdm.d.adgeneration"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:365"
+   ]
+  },
+  {
+   "id": "adjoe",
+   "name": "adjoe",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "io.adjoe.protection",
+    "io.adjoe.sdk"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:366"
+   ]
+  },
+  {
+   "id": "adjust",
+   "name": "Adjust",
+   "kind": "ANALYTICS",
+   "sdk": [
+    "com.adjust.android.sdk",
+    "com.adjust.sdk"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:52"
+   ]
+  },
+  {
+   "id": "adlocus",
+   "name": "AdLocus",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.adlocus"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:358"
+   ]
+  },
+  {
+   "id": "admarvel",
+   "name": "AdMarvel",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.admarvel"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:426"
+   ]
+  },
+  {
+   "id": "admixer",
+   "name": "Admixer",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.admixer",
+    "net.admixer.sdk"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:275"
+   ]
+  },
+  {
+   "id": "admob",
+   "name": "Google AdMob",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.google.ads",
+    "com.google.android.ads",
+    "com.google.android.gms.admob",
+    "com.google.android.gms.ads",
+    "com.google.android.gms.internal.ads",
+    "com.google.firebase.firebase_ads",
+    "com.google.unity.ads"
+   ],
+   "adapters": [
+    "com.applovin.mediation.adapters.GoogleAdManagerMediationAdapter",
+    "com.applovin.mediation.adapters.GoogleMediationAdapter",
+    "com.applovin.mediation.adapters.google",
+    "com.applovin.mediation.adapters.googleadmanager",
+    "com.ironsource.adapters.admob"
+   ],
+   "sources": [
+    "exodus:312",
+    "own"
+   ]
+  },
+  {
+   "id": "admost",
+   "name": "AdMost",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "admost.adserver",
+    "admost.sdk"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:276"
+   ]
+  },
+  {
+   "id": "admuing",
+   "name": "AdMuing",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.admuing.danmaku"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:273"
+   ]
+  },
+  {
+   "id": "adpie",
+   "name": "GOM Factory AdPie",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.gomfactory.adpie"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:373"
+   ]
+  },
+  {
+   "id": "adpopcorn",
+   "name": "adPOPcorn",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.igaworks.adpopcorn",
+    "com.igaworks.ssp"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:321"
+   ]
+  },
+  {
+   "id": "adtiming",
+   "name": "AdTiming",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.adtiming",
+    "com.aiming.mdt"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:427"
+   ]
+  },
+  {
+   "id": "adtrial",
+   "name": "AdTrial",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.adtrial.sdk"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:438"
+   ]
+  },
+  {
+   "id": "adx",
+   "name": "AD(X)",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.adxcorp.ads",
+    "com.adxcorp.nativead"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:424"
+   ]
+  },
+  {
+   "id": "aerserv",
+   "name": "AerServ",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.aerserv.sdk"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:196"
+   ]
+  },
+  {
+   "id": "airpush",
+   "name": "Airpush",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.airpush"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:337"
+   ]
+  },
+  {
+   "id": "alimama",
+   "name": "Alimama",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.adsmogo",
+    "com.alimama"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:338"
+   ]
+  },
+  {
+   "id": "altamob",
+   "name": "Altamob",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.altamob.sdk"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:269"
+   ]
+  },
+  {
+   "id": "amazon_ads",
+   "name": "Amazon Ads",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.amazon.aps.ads",
+    "com.amazon.device.ads"
+   ],
+   "adapters": [
+    "com.applovin.mediation.adapters.AmazonAdMarketplaceMediationAdapter",
+    "com.applovin.mediation.adapters.amazonadmarketplace"
+   ],
+   "sources": [
+    "exodus:92",
+    "own"
+   ]
+  },
+  {
+   "id": "applovin",
+   "name": "AppLovin",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.applovin"
+   ],
+   "adapters": [
+    "com.google.ads.mediation.applovin",
+    "com.ironsource.adapters.applovin"
+   ],
+   "sources": [
+    "exodus:72"
+   ]
+  },
+  {
+   "id": "appmetrica",
+   "name": "AppMetrica",
+   "kind": "ANALYTICS",
+   "sdk": [
+    "com.yandex.metrica"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:140"
+   ]
+  },
+  {
+   "id": "appnext",
+   "name": "Appnext",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.appnext.sdk"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:184"
+   ]
+  },
+  {
+   "id": "appodeal",
+   "name": "Appodeal",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.appodeal.ads",
+    "com.appodealx",
+    "com.explorestack"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:162",
+    "exodus:368"
+   ]
+  },
+  {
+   "id": "appsflyer",
+   "name": "AppsFlyer",
+   "kind": "ANALYTICS",
+   "sdk": [
+    "com.appsflyer"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:12"
+   ]
+  },
+  {
+   "id": "appsgeyser",
+   "name": "AppsGeyser",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.appsgeyser.sdk"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:369"
+   ]
+  },
+  {
+   "id": "appvador",
+   "name": "AppVador",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.appvador.ads"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:367"
+   ]
+  },
+  {
+   "id": "avocarrot",
+   "name": "Glispa Connect (Avocarrot)",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.avocarrot.sdk"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:73"
+   ]
+  },
+  {
+   "id": "baidu_ads",
+   "name": "Baidu Mobile Ads",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.baidu.mobads"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:100"
+   ]
+  },
+  {
+   "id": "bidmachine",
+   "name": "BidMachine",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "io.bidmachine"
+   ],
+   "adapters": [
+    "com.applovin.mediation.adapters.BidMachineMediationAdapter",
+    "com.applovin.mediation.adapters.bidmachine"
+   ],
+   "sources": [
+    "exodus:370"
+   ]
+  },
+  {
+   "id": "bigo_ads",
+   "name": "Bigo Ads",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "sg.bigo.ads"
+   ],
+   "adapters": [
+    "com.applovin.mediation.adapters.BigoAdsMediationAdapter",
+    "com.applovin.mediation.adapters.bigoads"
+   ],
+   "sources": [
+    "own"
+   ]
+  },
+  {
+   "id": "buzzad",
+   "name": "BuzzAd Benefit",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.buzzvil"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:372"
+   ]
+  },
+  {
+   "id": "calldorado",
+   "name": "Calldorado",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.calldorado.android"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:252"
+   ]
+  },
+  {
+   "id": "cauly",
+   "name": "Cauly",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.cauly.android.ad",
+    "com.fsn.cauly",
+    "com.trid.tridad"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:257"
+   ]
+  },
+  {
+   "id": "chartboost",
+   "name": "Chartboost",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.chartboost.sdk"
+   ],
+   "adapters": [
+    "com.applovin.mediation.adapters.ChartboostMediationAdapter",
+    "com.applovin.mediation.adapters.chartboost",
+    "com.google.ads.mediation.chartboost",
+    "com.ironsource.adapters.chartboost"
+   ],
+   "sources": [
+    "exodus:53"
+   ]
+  },
+  {
+   "id": "criteo",
+   "name": "Criteo",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.criteo.publisher"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:170"
+   ]
+  },
+  {
+   "id": "duapps",
+   "name": "DU Ad Platform",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.duapps.ad"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:191"
+   ]
+  },
+  {
+   "id": "facebook_analytics",
+   "name": "Facebook Analytics",
+   "kind": "ANALYTICS",
+   "sdk": [
+    "com.facebook.CampaignTrackingReceiver",
+    "com.facebook.appevents",
+    "com.facebook.marketing"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:66"
+   ]
+  },
+  {
+   "id": "fineboost",
+   "name": "fineboost",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.fineboost"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:385"
+   ]
+  },
+  {
+   "id": "firebase_analytics",
+   "name": "Google Firebase Analytics",
+   "kind": "ANALYTICS",
+   "sdk": [
+    "com.google.android.gms.measurement",
+    "com.google.firebase.analytics.FirebaseAnalytics",
+    "com.google.firebase.firebase_analytics"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:49"
+   ]
+  },
+  {
+   "id": "flurry_ads",
+   "name": "Flurry Ads",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.flurry.android.ads"
+   ],
+   "adapters": [],
+   "sources": [
+    "own"
+   ]
+  },
+  {
+   "id": "flurry_analytics",
+   "name": "Flurry Analytics",
+   "kind": "ANALYTICS",
+   "sdk": [
+    "com.flurry"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:25"
+   ]
+  },
+  {
+   "id": "freewheel",
+   "name": "FreeWheel",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "tv.freewheel.ad"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:224"
+   ]
+  },
+  {
+   "id": "fyber",
+   "name": "Fyber (Digital Turbine)",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.fyber",
+    "com.inneractive.api.ads"
+   ],
+   "adapters": [
+    "com.applovin.mediation.adapters.InneractiveMediationAdapter",
+    "com.applovin.mediation.adapters.inneractive",
+    "com.google.ads.mediation.fyber",
+    "com.ironsource.adapters.fyber"
+   ],
+   "sources": [
+    "exodus:104",
+    "exodus:301"
+   ]
+  },
+  {
+   "id": "geniee",
+   "name": "Geniee",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "jp.co.geniee.gnadsdk"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:407"
+   ]
+  },
+  {
+   "id": "google_analytics",
+   "name": "Google Analytics",
+   "kind": "ANALYTICS",
+   "sdk": [
+    "com.google.analytics",
+    "com.google.android.apps.analytics",
+    "com.google.android.gms.analytics"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:48"
+   ]
+  },
+  {
+   "id": "heyzap",
+   "name": "Heyzap",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.heyzap.mediation",
+    "com.heyzap.sdk.ads"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:147"
+   ]
+  },
+  {
+   "id": "huawei_ads",
+   "name": "Huawei Ads",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.huawei.hms.ads"
+   ],
+   "adapters": [],
+   "sources": [
+    "own"
+   ]
+  },
+  {
+   "id": "hyprmx",
+   "name": "HyprMX",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.hyprmx.android.sdk"
+   ],
+   "adapters": [
+    "com.applovin.mediation.adapters.HyprMXMediationAdapter",
+    "com.applovin.mediation.adapters.hyprmx",
+    "com.ironsource.adapters.hyprmx"
+   ],
+   "sources": [
+    "exodus:189"
+   ]
+  },
+  {
+   "id": "inmobi",
+   "name": "InMobi",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.inmobi",
+    "in.inmobi"
+   ],
+   "adapters": [
+    "com.applovin.mediation.adapters.InMobiMediationAdapter",
+    "com.applovin.mediation.adapters.inmobi",
+    "com.google.ads.mediation.inmobi",
+    "com.ironsource.adapters.inmobi"
+   ],
+   "sources": [
+    "exodus:106"
+   ]
+  },
+  {
+   "id": "instreamatic",
+   "name": "Instreamatic",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.instreamatic"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:204"
+   ]
+  },
+  {
+   "id": "iqzone",
+   "name": "IQzone",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.iqzone"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:232"
+   ]
+  },
+  {
+   "id": "ironsource",
+   "name": "ironSource",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.ironsource",
+    "com.supersonic.adapters.supersonicads",
+    "com.supersonicads.sdk"
+   ],
+   "adapters": [
+    "com.applovin.mediation.adapters.IronSourceMediationAdapter",
+    "com.applovin.mediation.adapters.ironsource",
+    "com.google.ads.mediation.ironsource"
+   ],
+   "sources": [
+    "exodus:146",
+    "exodus:110"
+   ]
+  },
+  {
+   "id": "jumptap",
+   "name": "JumpTap",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.jumptap.adtag"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:374"
+   ]
+  },
+  {
+   "id": "kidoz",
+   "name": "KIDOZ",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.kidoz.sdk"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:235"
+   ]
+  },
+  {
+   "id": "kiip",
+   "name": "Kiip",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "me.kiip.sdk"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:214"
+   ]
+  },
+  {
+   "id": "kuaishou_ads",
+   "name": "Kuaishou Ads",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.kwad.sdk"
+   ],
+   "adapters": [],
+   "sources": [
+    "own"
+   ]
+  },
+  {
+   "id": "loopme",
+   "name": "LoopMe",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.loopme"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:375"
+   ]
+  },
+  {
+   "id": "madvertise",
+   "name": "MAdvertise",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.mngads",
+    "com.mngads.sdk",
+    "com.mngads.views"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:89"
+   ]
+  },
+  {
+   "id": "mdotm",
+   "name": "MDOTM",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.mdotm.android"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:302"
+   ]
+  },
+  {
+   "id": "mediba",
+   "name": "mediba",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.mediba.jp",
+    "mediba.ad.sdk.android.openx"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:311"
+   ]
+  },
+  {
+   "id": "meta_audience_network",
+   "name": "Meta Audience Network",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.facebook.ads",
+    "com.facebook.audiencenetwork"
+   ],
+   "adapters": [
+    "com.applovin.mediation.adapters.FacebookMediationAdapter",
+    "com.applovin.mediation.adapters.facebook",
+    "com.google.ads.mediation.facebook",
+    "com.ironsource.adapters.facebook"
+   ],
+   "sources": [
+    "exodus:65",
+    "exodus:47"
+   ]
+  },
+  {
+   "id": "metaps",
+   "name": "Metaps",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.metaps"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:303"
+   ]
+  },
+  {
+   "id": "millennial_media",
+   "name": "Millennial Media",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.millennialmedia"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:107"
+   ]
+  },
+  {
+   "id": "mintegral",
+   "name": "Mintegral (Mobvista)",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.mbridge.msdk",
+    "com.mintegral",
+    "com.mobvista"
+   ],
+   "adapters": [
+    "com.applovin.mediation.adapters.MintegralMediationAdapter",
+    "com.applovin.mediation.adapters.mintegral",
+    "com.google.ads.mediation.mintegral",
+    "com.ironsource.adapters.mintegral"
+   ],
+   "sources": [
+    "exodus:200",
+    "exodus:159"
+   ]
+  },
+  {
+   "id": "mobfox",
+   "name": "MobFox",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.adsdk.sdk",
+    "com.mobfox"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:185"
+   ]
+  },
+  {
+   "id": "mobpower",
+   "name": "MobPower",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.mobpower"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:215"
+   ]
+  },
+  {
+   "id": "moloco",
+   "name": "Moloco",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.moloco.sdk"
+   ],
+   "adapters": [
+    "com.applovin.mediation.adapters.MolocoMediationAdapter",
+    "com.applovin.mediation.adapters.moloco"
+   ],
+   "sources": [
+    "own"
+   ]
+  },
+  {
+   "id": "mopub",
+   "name": "MoPub",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.mopub"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:35"
+   ]
+  },
+  {
+   "id": "mytarget",
+   "name": "myTarget",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.my.target"
+   ],
+   "adapters": [
+    "com.applovin.mediation.adapters.MyTargetMediationAdapter",
+    "com.applovin.mediation.adapters.mytarget",
+    "com.google.ads.mediation.mytarget",
+    "com.ironsource.adapters.mytarget"
+   ],
+   "sources": [
+    "exodus:198"
+   ]
+  },
+  {
+   "id": "nend",
+   "name": "nend",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "net.nend.android",
+    "net.nend.unity"
+   ],
+   "adapters": [
+    "com.google.ads.mediation.nend"
+   ],
+   "sources": [
+    "exodus:222"
+   ]
+  },
+  {
+   "id": "nexage",
+   "name": "Nexage",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.nexage.android",
+    "org.nexage"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:33"
+   ]
+  },
+  {
+   "id": "offertoro",
+   "name": "OfferToro",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.offertoro.sdk"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:411"
+   ]
+  },
+  {
+   "id": "ogury",
+   "name": "Ogury",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "io.presage"
+   ],
+   "adapters": [
+    "com.applovin.mediation.adapters.OguryPresageMediationAdapter",
+    "com.applovin.mediation.adapters.ogurypresage"
+   ],
+   "sources": [
+    "exodus:34"
+   ]
+  },
+  {
+   "id": "openx",
+   "name": "OpenX",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.openx.android_sdk_openx",
+    "com.openx.view.plugplay"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:210"
+   ]
+  },
+  {
+   "id": "pangle",
+   "name": "Pangle",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.bytedance.sdk.openadsdk",
+    "com.pangle.global"
+   ],
+   "adapters": [
+    "com.applovin.mediation.adapters.ByteDanceMediationAdapter",
+    "com.applovin.mediation.adapters.bytedance",
+    "com.google.ads.mediation.pangle",
+    "com.ironsource.adapters.pangle"
+   ],
+   "sources": [
+    "exodus:363"
+   ]
+  },
+  {
+   "id": "pincrux",
+   "name": "Pincrux",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.pincrux"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:439"
+   ]
+  },
+  {
+   "id": "pingstart",
+   "name": "PingStart",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.pingstart.adsdk"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:261"
+   ]
+  },
+  {
+   "id": "pokkt",
+   "name": "POKKT",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.pokkt.sdk"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:346"
+   ]
+  },
+  {
+   "id": "prebid",
+   "name": "Prebid Mobile",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "org.prebid.mobile"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:347"
+   ]
+  },
+  {
+   "id": "pubmatic",
+   "name": "PubMatic",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.pubmatic.sdk"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:236"
+   ]
+  },
+  {
+   "id": "pubnative",
+   "name": "PubNative",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "net.pubnative"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:183"
+   ]
+  },
+  {
+   "id": "receptiv",
+   "name": "Receptiv (Mediabrix)",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.mediabrix.android"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:317"
+   ]
+  },
+  {
+   "id": "revmob",
+   "name": "RevMob",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.revmob.ads"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:263"
+   ]
+  },
+  {
+   "id": "sk_planet_tad",
+   "name": "SK planet Tad",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.skplanet.tad"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:348"
+   ]
+  },
+  {
+   "id": "smaato",
+   "name": "Smaato",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.smaato"
+   ],
+   "adapters": [
+    "com.applovin.mediation.adapters.SmaatoMediationAdapter",
+    "com.applovin.mediation.adapters.smaato"
+   ],
+   "sources": [
+    "exodus:83"
+   ]
+  },
+  {
+   "id": "smart_adserver",
+   "name": "Smart AdServer",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.smartadserver"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:7"
+   ]
+  },
+  {
+   "id": "snap_audience_network",
+   "name": "Snap Audience Network",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.snap.adkit"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:433"
+   ]
+  },
+  {
+   "id": "startapp",
+   "name": "Start.io (StartApp)",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.startapp"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:195"
+   ]
+  },
+  {
+   "id": "superawesome",
+   "name": "SuperAwesome",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "tv.superawesome.lib",
+    "tv.superawesome.sdk"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:378"
+   ]
+  },
+  {
+   "id": "tapdaq",
+   "name": "Tapdaq",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.tapdaq.adapters",
+    "com.tapdaq.sdk"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:258"
+   ]
+  },
+  {
+   "id": "tapjoy",
+   "name": "Tapjoy",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.tapjoy"
+   ],
+   "adapters": [
+    "com.applovin.mediation.adapters.TapjoyMediationAdapter",
+    "com.applovin.mediation.adapters.tapjoy",
+    "com.google.ads.mediation.tapjoy",
+    "com.ironsource.adapters.tapjoy"
+   ],
+   "sources": [
+    "exodus:199"
+   ]
+  },
+  {
+   "id": "tappx",
+   "name": "Tappx",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.tappx.sdk.android"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:380"
+   ]
+  },
+  {
+   "id": "teads",
+   "name": "Teads",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "teads.tv",
+    "tv.teads"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:230"
+   ]
+  },
+  {
+   "id": "tencent_gdt",
+   "name": "Tencent Ads (GDT)",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.qq.e"
+   ],
+   "adapters": [],
+   "sources": [
+    "own"
+   ]
+  },
+  {
+   "id": "tencent_mobwin",
+   "name": "Tencent MobWin",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.tencent.mobwin"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:113"
+   ]
+  },
+  {
+   "id": "tnk",
+   "name": "TNK Factory",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.tnkfactory.ad"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:225"
+   ]
+  },
+  {
+   "id": "unity_ads",
+   "name": "Unity Ads",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.unity3d.ads"
+   ],
+   "adapters": [
+    "com.applovin.mediation.adapters.UnityAdsMediationAdapter",
+    "com.applovin.mediation.adapters.unityads",
+    "com.google.ads.mediation.unity",
+    "com.ironsource.adapters.unityads"
+   ],
+   "sources": [
+    "exodus:121"
+   ]
+  },
+  {
+   "id": "vdopia",
+   "name": "Vdopia",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.vdopia.ads",
+    "com.vdopia.client.android"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:436"
+   ]
+  },
+  {
+   "id": "verve",
+   "name": "Verve",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.vervewireless.advert"
+   ],
+   "adapters": [
+    "com.applovin.mediation.adapters.VerveMediationAdapter",
+    "com.applovin.mediation.adapters.verve"
+   ],
+   "sources": [
+    "exodus:259"
+   ]
+  },
+  {
+   "id": "virgo",
+   "name": "Virgo Mobile",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.virgo.ads"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:383"
+   ]
+  },
+  {
+   "id": "vpon",
+   "name": "Vpon",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.vpadn.ads",
+    "com.vpadn.widget",
+    "com.vpon.ads"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:308"
+   ]
+  },
+  {
+   "id": "vungle",
+   "name": "Vungle (Liftoff Monetize)",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.vungle.ads",
+    "com.vungle.publisher",
+    "com.vungle.warren"
+   ],
+   "adapters": [
+    "com.applovin.mediation.adapters.VungleMediationAdapter",
+    "com.applovin.mediation.adapters.vungle",
+    "com.google.ads.mediation.vungle",
+    "com.ironsource.adapters.vungle",
+    "com.vungle.mediation"
+   ],
+   "sources": [
+    "exodus:169",
+    "own"
+   ]
+  },
+  {
+   "id": "yahoo_ads",
+   "name": "Yahoo Ads (formerly Verizon Ads)",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.verizon.ads",
+    "com.yahoo.ads"
+   ],
+   "adapters": [
+    "com.google.ads.mediation.verizon"
+   ],
+   "sources": [
+    "exodus:320",
+    "own"
+   ]
+  },
+  {
+   "id": "yandex_ads",
+   "name": "Yandex Ads",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.yandex.mobile.ads"
+   ],
+   "adapters": [
+    "com.applovin.mediation.adapters.YandexMediationAdapter",
+    "com.applovin.mediation.adapters.yandex"
+   ],
+   "sources": [
+    "exodus:124"
+   ]
+  },
+  {
+   "id": "yoadx",
+   "name": "Yoadx",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.yoadx.yoadx"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:442"
+   ]
+  },
+  {
+   "id": "yoc_visx",
+   "name": "YOC VIS.X",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.yoc.visx"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:364"
+   ]
+  },
+  {
+   "id": "yume",
+   "name": "YuMe",
+   "kind": "AD_NETWORK",
+   "sdk": [
+    "com.yume.android"
+   ],
+   "adapters": [],
+   "sources": [
+    "exodus:309"
+   ]
+  }
+ ]
+}

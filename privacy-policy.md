@@ -1,12 +1,12 @@
 # Phone Guard privacy policy
 
 Effective: October 29, 2026
-Version: 1.0, for Phone Guard 1.0 (Android, package `com.phoneguard.app`)
+Version: 1.0, for the Phone Guard app (Android, package `com.phoneguard.app`)
 Version française : [politique de confidentialité](politique-de-confidentialite.md)
 
 ## Who we are
 
-Phone Guard is made by Jacques Dev, an individual developer in Quebec, Canada ("we", "us").
+Phone Guard is made by Jacques Dev, an individual developer in Quebec, Canada (“we”, “us”).
 
 Person in charge of the protection of personal information (Quebec Law 25): Jacques Dev, jacques_dev@icloud.com.
 Write to that address for any privacy question or request. We answer within 30 days.
@@ -23,7 +23,7 @@ Write to that address for any privacy question or request. We answer within 30 d
 
 Phone Guard reads each item below only after you agree on a screen that explains it. None of it leaves your phone.
 
-**Your apps** (after you agree on the "See your apps" screen)
+**Your apps** (after you agree on the “See your apps” screen)
 - Every installed app’s name, version, who signed it, what it can access (its permissions), where it was installed from, and when it was installed and last updated.
 - Each app’s install files, to look for code from ad networks and to work out a fingerprint of each file. This runs in a separate, locked-down part of Phone Guard with no access to your data. Phone Guard never runs code from other apps.
 - Phone Guard does this when you open it, and once a day in the background to check new and updated apps.
@@ -32,7 +32,7 @@ Phone Guard reads each item below only after you agree on a screen that explains
 - When you last opened each app, how long each app ran in the background, how much mobile and Wi-Fi data each app used and how much of it was in the background, and how much storage each app and its data take.
 
 **Notification counts** (only if you turn on Notification access)
-- For each notification: which app sent it, when it arrived, its type (for example "message" or "promotion") and how important the app marked it.
+- For each notification: which app sent it, when it arrived, its type (for example “message” or “promotion”) and how important the app marked it.
 - Phone Guard never reads or keeps the title, the text, pictures or who a notification is from. It never dismisses, snoozes or taps your notifications.
 
 **Your files** (only in folders you choose)
@@ -48,7 +48,7 @@ Phone Guard reads each item below only after you agree on a screen that explains
 | Your settings (daily check, notification counting) | Until you delete Phone Guard’s data or uninstall it |
 | Results for each app (concerns found, reasons, unused or duplicate) | Replaced at every check |
 | Results of the install-file check (ad networks found, file fingerprints) | While that app stays installed; removed at the next install-file check after it’s uninstalled |
-| Notification counts | 14 days, then deleted. "Stop counting and delete counts" deletes them at once |
+| Notification counts | 14 days, then deleted. “Stop counting and delete counts” deletes them at once |
 | The apps you chose to remove in a cleanup, and what happened to each | Until that cleanup is over and you close its summary |
 | The folders you shared with Phone Guard | Until you tap Remove access in the Folders list |
 | Files you told Phone Guard to keep (name, folder, size, date) | Until you change your mind or delete Phone Guard’s data |
@@ -84,7 +84,7 @@ Phone Guard reaches your files only through Android’s own folder and file pick
 
 ## 6. Deleting your data
 
-- **Delete all data:** in Phone Guard, open Settings > Delete all Phone Guard data. This uses Android’s own "Clear storage". It deletes everything in section 2, removes the folder access you gave, turns off notification access, cancels the daily check and closes Phone Guard.
+- **Delete all data:** in Phone Guard, open Settings > Delete all Phone Guard data. This uses Android’s own “Clear storage”. It deletes everything in section 2, removes the folder access you gave, turns off notification access, cancels the daily check and closes Phone Guard.
 - **Uninstall:** uninstalling Phone Guard deletes everything it stored.
 - Two things stay, because they belong to Android, not to Phone Guard:
   - Files you moved to the trash stay in Android’s trash until you restore them or Android deletes them, in about 30 days.

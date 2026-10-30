@@ -3,7 +3,7 @@
 # Politique de confidentialité de Phone Guard
 
 En vigueur le : 29 octobre 2026
-Version 1.0, pour Phone Guard 1.0 (Android, paquet `com.phoneguard.app`)
+Version 1.0, pour l’application Phone Guard (Android, paquet `com.phoneguard.app`)
 English version: [privacy policy](privacy-policy.md)
 
 ## Qui nous sommes
